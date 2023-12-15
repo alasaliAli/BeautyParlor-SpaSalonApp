@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@color/background"
+    tools:context=".BookAppointment">
+
+    <ImageView
+        android:id="@+id/log"
+        android:layout_width="370dp"
+        android:layout_height="330dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/det"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Booking Details"
+        android:textColor="@color/write"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/det"
+        android:background="@drawable/textview">
+
+        <TextView
+            android:id="@+id/t_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Service Name: "
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+        <TextView
+            android:id="@+id/pic_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview"
+        android:layout_below="@id/t_name4">
+
+        <TextView
+            android:id="@+id/t_Price4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="Price: "
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"/>
+
+        <TextView
+            android:id="@+id/pic_Price4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/det"
+        android:background="@drawable/textview">
+
+        <EditText
+            android:id="@+id/t_cus_name"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="@color/write"
+            android:text=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter booking Holder Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/write"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_weight="0.5"
+            android:text="Select date" />
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Select time" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/booking_save"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Confirm Booking"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

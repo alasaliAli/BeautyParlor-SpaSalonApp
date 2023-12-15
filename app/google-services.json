@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492316081603",
+    "project_id": "alasali-beautyparlor-fd2a5",
+    "storage_bucket": "alasali-beautyparlor-fd2a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492316081603:android:7e0f2b113970bc06c91176",
+        "android_client_info": {
+          "package_name": "com.example.alasali_beautyparlorspasalonapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKBP7lCaTwvVq0CwbQSwRgS-UnP5u4gPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
